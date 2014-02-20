@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6600FA5618AC5EAF00654495 /* Linen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6600FA5518AC5EAF00654495 /* Linen@2x.png */; };
+		6600FA5A18AD7A1F00654495 /* UINavigationBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6600FA5918AD7A1F00654495 /* UINavigationBar@2x.png */; };
+		6600FA5C18AD7A2500654495 /* UIToolbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6600FA5B18AD7A2500654495 /* UIToolbar@2x.png */; };
+		6600FA5E18AD7A4600654495 /* UINavigationBarRotated@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6600FA5D18AD7A4500654495 /* UINavigationBarRotated@2x.png */; };
+		6600FA6018AD7F8300654495 /* Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6600FA5F18AD7F8300654495 /* Button@2x.png */; };
+		66AEE77218ABC76600D2A551 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66AEE77118ABC76600D2A551 /* Foundation.framework */; };
+		66AEE77418ABC76600D2A551 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66AEE77318ABC76600D2A551 /* CoreGraphics.framework */; };
+		66AEE77618ABC76600D2A551 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66AEE77518ABC76600D2A551 /* UIKit.framework */; };
+		66AEE77C18ABC76600D2A551 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66AEE77A18ABC76600D2A551 /* InfoPlist.strings */; };
+		66AEE77E18ABC76600D2A551 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66AEE77D18ABC76600D2A551 /* main.m */; };
+		66AEE78218ABC76600D2A551 /* DDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66AEE78118ABC76600D2A551 /* DDAppDelegate.m */; };
+		66AEE78818ABC76600D2A551 /* DDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66AEE78718ABC76600D2A551 /* DDViewController.m */; };
+		66AEE78A18ABC76600D2A551 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66AEE78918ABC76600D2A551 /* Images.xcassets */; };
+		66AEE7A718ABC78E00D2A551 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66AEE7A618ABC78E00D2A551 /* QuartzCore.framework */; };
+		66AEE7AA18ABC7EB00D2A551 /* DDGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66AEE7A918ABC7EB00D2A551 /* DDGameView.m */; };
+		66AEE7AD18ABF57400D2A551 /* DDPillarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66AEE7AC18ABF57400D2A551 /* DDPillarView.m */; };
+		66AEE7AF18AC4D0600D2A551 /* Background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66AEE7AE18AC4D0600D2A551 /* Background@2x.png */; };
+		66AEE7B118AC4E1800D2A551 /* Texture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66AEE7B018AC4E1800D2A551 /* Texture@2x.png */; };
+		66AEE7B318AC4EB500D2A551 /* Tails@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66AEE7B218AC4EB500D2A551 /* Tails@2x.png */; };
+		66AEE7B518AC54BA00D2A551 /* Bottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66AEE7B418AC54BA00D2A551 /* Bottom@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6600FA5518AC5EAF00654495 /* Linen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Linen@2x.png"; sourceTree = "<group>"; };
+		6600FA5918AD7A1F00654495 /* UINavigationBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UINavigationBar@2x.png"; sourceTree = "<group>"; };
+		6600FA5B18AD7A2500654495 /* UIToolbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIToolbar@2x.png"; sourceTree = "<group>"; };
+		6600FA5D18AD7A4500654495 /* UINavigationBarRotated@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UINavigationBarRotated@2x.png"; sourceTree = "<group>"; };
+		6600FA5F18AD7F8300654495 /* Button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button@2x.png"; sourceTree = "<group>"; };
+		66AEE76E18ABC76600D2A551 /* DynamicDoge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicDoge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66AEE77118ABC76600D2A551 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		66AEE77318ABC76600D2A551 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		66AEE77518ABC76600D2A551 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		66AEE77918ABC76600D2A551 /* DynamicDoge-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DynamicDoge-Info.plist"; sourceTree = "<group>"; };
+		66AEE77B18ABC76600D2A551 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66AEE77D18ABC76600D2A551 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66AEE77F18ABC76600D2A551 /* DynamicDoge-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DynamicDoge-Prefix.pch"; sourceTree = "<group>"; };
+		66AEE78018ABC76600D2A551 /* DDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDAppDelegate.h; sourceTree = "<group>"; };
+		66AEE78118ABC76600D2A551 /* DDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDAppDelegate.m; sourceTree = "<group>"; };
+		66AEE78618ABC76600D2A551 /* DDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDViewController.h; sourceTree = "<group>"; };
+		66AEE78718ABC76600D2A551 /* DDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDViewController.m; sourceTree = "<group>"; };
+		66AEE78918ABC76600D2A551 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		66AEE7A618ABC78E00D2A551 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		66AEE7A818ABC7EB00D2A551 /* DDGameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDGameView.h; sourceTree = "<group>"; };
+		66AEE7A918ABC7EB00D2A551 /* DDGameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDGameView.m; sourceTree = "<group>"; };
+		66AEE7AB18ABF57400D2A551 /* DDPillarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDPillarView.h; sourceTree = "<group>"; };
+		66AEE7AC18ABF57400D2A551 /* DDPillarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDPillarView.m; sourceTree = "<group>"; };
+		66AEE7AE18AC4D0600D2A551 /* Background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background@2x.png"; sourceTree = "<group>"; };
+		66AEE7B018AC4E1800D2A551 /* Texture@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Texture@2x.png"; sourceTree = "<group>"; };
+		66AEE7B218AC4EB500D2A551 /* Tails@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tails@2x.png"; sourceTree = "<group>"; };
+		66AEE7B418AC54BA00D2A551 /* Bottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bottom@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66AEE76B18ABC76600D2A551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66AEE7A718ABC78E00D2A551 /* QuartzCore.framework in Frameworks */,
+				66AEE77418ABC76600D2A551 /* CoreGraphics.framework in Frameworks */,
+				66AEE77618ABC76600D2A551 /* UIKit.framework in Frameworks */,
+				66AEE77218ABC76600D2A551 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66AEE76518ABC76600D2A551 = {
+			isa = PBXGroup;
+			children = (
+				66AEE77718ABC76600D2A551 /* DynamicDoge */,
+				66AEE77018ABC76600D2A551 /* Frameworks */,
+				66AEE76F18ABC76600D2A551 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66AEE76F18ABC76600D2A551 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66AEE76E18ABC76600D2A551 /* DynamicDoge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66AEE77018ABC76600D2A551 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66AEE7A618ABC78E00D2A551 /* QuartzCore.framework */,
+				66AEE77118ABC76600D2A551 /* Foundation.framework */,
+				66AEE77318ABC76600D2A551 /* CoreGraphics.framework */,
+				66AEE77518ABC76600D2A551 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66AEE77718ABC76600D2A551 /* DynamicDoge */ = {
+			isa = PBXGroup;
+			children = (
+				66AEE78018ABC76600D2A551 /* DDAppDelegate.h */,
+				66AEE78118ABC76600D2A551 /* DDAppDelegate.m */,
+				66AEE78618ABC76600D2A551 /* DDViewController.h */,
+				66AEE78718ABC76600D2A551 /* DDViewController.m */,
+				66AEE7A818ABC7EB00D2A551 /* DDGameView.h */,
+				66AEE7A918ABC7EB00D2A551 /* DDGameView.m */,
+				66AEE7AB18ABF57400D2A551 /* DDPillarView.h */,
+				66AEE7AC18ABF57400D2A551 /* DDPillarView.m */,
+				66AEE78918ABC76600D2A551 /* Images.xcassets */,
+				66AEE77818ABC76600D2A551 /* Supporting Files */,
+			);
+			path = DynamicDoge;
+			sourceTree = "<group>";
+		};
+		66AEE77818ABC76600D2A551 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66AEE7B218AC4EB500D2A551 /* Tails@2x.png */,
+				6600FA5F18AD7F8300654495 /* Button@2x.png */,
+				66AEE7AE18AC4D0600D2A551 /* Background@2x.png */,
+				6600FA5518AC5EAF00654495 /* Linen@2x.png */,
+				66AEE7B018AC4E1800D2A551 /* Texture@2x.png */,
+				6600FA5918AD7A1F00654495 /* UINavigationBar@2x.png */,
+				6600FA5D18AD7A4500654495 /* UINavigationBarRotated@2x.png */,
+				66AEE7B418AC54BA00D2A551 /* Bottom@2x.png */,
+				6600FA5B18AD7A2500654495 /* UIToolbar@2x.png */,
+				66AEE77918ABC76600D2A551 /* DynamicDoge-Info.plist */,
+				66AEE77A18ABC76600D2A551 /* InfoPlist.strings */,
+				66AEE77D18ABC76600D2A551 /* main.m */,
+				66AEE77F18ABC76600D2A551 /* DynamicDoge-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66AEE76D18ABC76600D2A551 /* DynamicDoge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66AEE7A018ABC76600D2A551 /* Build configuration list for PBXNativeTarget "DynamicDoge" */;
+			buildPhases = (
+				66AEE76A18ABC76600D2A551 /* Sources */,
+				66AEE76B18ABC76600D2A551 /* Frameworks */,
+				66AEE76C18ABC76600D2A551 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamicDoge;
+			productName = DynamicDoge;
+			productReference = 66AEE76E18ABC76600D2A551 /* DynamicDoge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66AEE76618ABC76600D2A551 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DD;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Adam Bell";
+			};
+			buildConfigurationList = 66AEE76918ABC76600D2A551 /* Build configuration list for PBXProject "DynamicDoge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66AEE76518ABC76600D2A551;
+			productRefGroup = 66AEE76F18ABC76600D2A551 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66AEE76D18ABC76600D2A551 /* DynamicDoge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66AEE76C18ABC76600D2A551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66AEE7B318AC4EB500D2A551 /* Tails@2x.png in Resources */,
+				66AEE7B118AC4E1800D2A551 /* Texture@2x.png in Resources */,
+				66AEE7AF18AC4D0600D2A551 /* Background@2x.png in Resources */,
+				6600FA5618AC5EAF00654495 /* Linen@2x.png in Resources */,
+				66AEE78A18ABC76600D2A551 /* Images.xcassets in Resources */,
+				66AEE77C18ABC76600D2A551 /* InfoPlist.strings in Resources */,
+				6600FA5E18AD7A4600654495 /* UINavigationBarRotated@2x.png in Resources */,
+				6600FA5A18AD7A1F00654495 /* UINavigationBar@2x.png in Resources */,
+				6600FA6018AD7F8300654495 /* Button@2x.png in Resources */,
+				66AEE7B518AC54BA00D2A551 /* Bottom@2x.png in Resources */,
+				6600FA5C18AD7A2500654495 /* UIToolbar@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66AEE76A18ABC76600D2A551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66AEE7AA18ABC7EB00D2A551 /* DDGameView.m in Sources */,
+				66AEE78218ABC76600D2A551 /* DDAppDelegate.m in Sources */,
+				66AEE7AD18ABF57400D2A551 /* DDPillarView.m in Sources */,
+				66AEE78818ABC76600D2A551 /* DDViewController.m in Sources */,
+				66AEE77E18ABC76600D2A551 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		66AEE77A18ABC76600D2A551 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66AEE77B18ABC76600D2A551 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66AEE79E18ABC76600D2A551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		66AEE79F18ABC76600D2A551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66AEE7A118ABC76600D2A551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DynamicDoge/DynamicDoge-Prefix.pch";
+				INFOPLIST_FILE = "DynamicDoge/DynamicDoge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		66AEE7A218ABC76600D2A551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DynamicDoge/DynamicDoge-Prefix.pch";
+				INFOPLIST_FILE = "DynamicDoge/DynamicDoge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66AEE76918ABC76600D2A551 /* Build configuration list for PBXProject "DynamicDoge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66AEE79E18ABC76600D2A551 /* Debug */,
+				66AEE79F18ABC76600D2A551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66AEE7A018ABC76600D2A551 /* Build configuration list for PBXNativeTarget "DynamicDoge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66AEE7A118ABC76600D2A551 /* Debug */,
+				66AEE7A218ABC76600D2A551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66AEE76618ABC76600D2A551 /* Project object */;
+}
