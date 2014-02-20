@@ -4,7 +4,7 @@ Flappy Bird clone written in UIKit and UIDynamics!
 ### Intro
 Just for the fun of it I wrote a flappy-bird clone using UIKit and UIDynamics. If you're trying to take this serious... don't :P Also I used images for the various UIKit elements because who knows how long UIUseLegacyUI will work! It's (obviously) very poorly written, but wow. such game. good UIKit. so iOS 6.
 
-![dogepreview]()
+![dogepreview](https://raw2.github.com/b3ll/DynamicDoge/master/README/Screenshot.png)
 
 ### License?
 Pretty much the BSD license, just don't repackage it and call it your own please!
