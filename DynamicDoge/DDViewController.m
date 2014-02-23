@@ -19,6 +19,7 @@
     UIPushBehavior *_pushBehavior;
     UIGravityBehavior *_dogeBehaviour;
     UICollisionBehavior *_collisionBehavior;
+    UIDynamicItemBehavior *_resistanceBehavior;
     
     BOOL _paused;
 }
@@ -44,12 +45,13 @@
     [_collisionBehavior setTranslatesReferenceBoundsIntoBoundary:YES];
     
     _dogeBehaviour = [[UIGravityBehavior alloc] initWithItems:@[self.view.dogeView]];
-    _dogeBehaviour.gravityDirection = CGVectorMake(0.0, 1.5);
     
     _pushBehavior = [[UIPushBehavior alloc] initWithItems:@[self.view.dogeView] mode:UIPushBehaviorModeInstantaneous];
-    _pushBehavior.pushDirection = CGVectorMake(0.0, 0.0);
     _pushBehavior.angle = M_PI / 2;
-    
+
+    _resistanceBehavior = [[UIDynamicItemBehavior alloc] initWithItems:@[self.view.dogeView]];
+    _resistanceBehavior.resistance = 3;
+
     _paused = YES;
 }
 
@@ -66,7 +68,7 @@
     [super touchesBegan:touches withEvent:event];
     
     if (!_paused) {
-        _pushBehavior.pushDirection = CGVectorMake(0.0, -1.0);
+        _pushBehavior.pushDirection = CGVectorMake(0.0, -1.5);
         _pushBehavior.active = YES;
     }
     else {
@@ -86,6 +88,7 @@
     [_animator addBehavior:_collisionBehavior];
     [_animator addBehavior:_dogeBehaviour];
     [_animator addBehavior:_pushBehavior];
+    [_animator addBehavior:_resistanceBehavior];
     
     _paused = NO;
 }
